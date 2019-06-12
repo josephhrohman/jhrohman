@@ -1,0 +1,31 @@
+.nav-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  margin: 0 auto;
+  background-color: #022233;
+}
+
+.nav-left {
+  margin-left: 10vw;
+}
+
+.nav-right {
+  display: flex;
+  margin-right: 10vw;
+}
+
+.nav-logo {
+  height: 7vh;
+  width: auto;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
