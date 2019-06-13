@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { withRouter } from 'react-router-dom';
-// import axios from 'axios';
 import Routes from './config/routes.js';
 import Nav from './components/layout/nav/nav.js';
 import Footer from './components/layout/footer/footer';

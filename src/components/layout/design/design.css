@@ -1,8 +1,6 @@
-.design-body {
-  box-shadow: 0px 0px 10px #888888;
+.designs-body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-

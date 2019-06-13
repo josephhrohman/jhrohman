@@ -4,10 +4,26 @@ import './article.css';
 const Article = () => {
   return(
     <div className="article-body">
-      <h1 className="article-title">Article Page</h1>
-      <p className="article-content"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos vel optio cum 
-      rerum nesciunt ipsum provident aliquid omnis voluptate maxime adipisci explicabo quos voluptas incidunt 
-      fugit iure, perferendis rem eum. </p>
+      <div className="article-panel-1">
+        <p className="intro-text">This is the title I care some much about.</p>
+        <img src="#" alt="img1" className="article-img-block"/>
+      </div>
+      <div className="article-panel-2">
+        <img src="#" alt="img2" className="article-img-block"/>
+        <p className="content-1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste repudiandae voluptatum itaque eos provident 
+          labore, sint enim non numquam porro harum eius exercitationem officia dignissimos iusto nulla soluta fuga dolorum.
+        </p>
+      </div>
+      <div className="article-panel-3">
+        <p className="content-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste repudiandae voluptatum itaque eos provident 
+          labore, sint enim non numquam porro harum eius exercitationem officia dignissimos iusto nulla soluta fuga dolorum.
+        </p>
+        <img src="#" alt="img3" className="article-img-block"/>
+      </div>
+      <div className="article-panel-4">
+      </div>
     </div>
   )
 }
