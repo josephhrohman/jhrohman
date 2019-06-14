@@ -1,28 +1,39 @@
 import React from 'react';
 import './article.css';
+import data from '../../../data/data'
 
 const Article = () => {
+  
+  console.log(data);
+  console.log(data[idea]);
+  console.log(data.process);
+  console.log(data.result);
+
   return(
     <div className="article-body">
       <div className="article-panel-1">
-        <p className="intro-text">This is the title I care some much about.</p>
-        <img src="#" alt="img1" className="article-img-block"/>
+        <p className="intro-text">{data.title}</p>
+        <p className="intro-text">{data.data}</p>
+        {/* <img src={data.result.img} alt={data.result.content} className="article-img-block"/> */}
       </div>
+
       <div className="article-panel-2">
-        <img src="#" alt="img2" className="article-img-block"/>
-        <p className="content-1">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste repudiandae voluptatum itaque eos provident 
-          labore, sint enim non numquam porro harum eius exercitationem officia dignissimos iusto nulla soluta fuga dolorum.
-        </p>
+        {/* <img src={data.idea.img} alt={data.idea.content} className="article-img-block"/> */}
+        <p className="content-1">{data.idea.content}</p>
       </div>
+
       <div className="article-panel-3">
-        <p className="content-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste repudiandae voluptatum itaque eos provident 
-          labore, sint enim non numquam porro harum eius exercitationem officia dignissimos iusto nulla soluta fuga dolorum.
-        </p>
-        <img src="#" alt="img3" className="article-img-block"/>
+        <p className="content-2">{}</p>
+        {/* <img src={data.process.img} alt={data.process.content} className="article-img-block"/> */}
       </div>
+      
       <div className="article-panel-4">
+        <p className="content-3">{data.result.content}</p>
+        {/* <img src={data.result.img} alt={data.result.content} className="article-img-block"/> */}
+      </div>
+
+      <div className="article-panel-4">
+        <p className="content-3">{data.growth}</p>
       </div>
     </div>
   )

@@ -1,0 +1,69 @@
+.landing1-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* landing1 Hero */
+.landing1-hero {
+  box-shadow: 0px 4px 2px -3px #BABABA;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-color: #EEEFED; 
+}
+
+.landing1-hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.landing1-hero-title {
+  font-size: 5vh;
+  font-weight: 900;
+  color: #727272;
+  margin: 0;
+}
+.landing1-hero-content {
+  font-size: 3vh;
+  font-weight: 900;
+  color: #727272;
+  margin: 0;
+}
+
+.landing1-hero-img {
+  overflow: hidden;
+  opacity: 0.75;
+  width: 60vh;
+}
+
+/* landing1 Panels */
+.landing1-panel {
+  box-shadow: 0px 4px 2px -3px #BABABA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.landing1-panel-left {
+  height: 40vh;
+  width: 40vh;
+}
+
+.landing1-panel-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.landing1-project {
+  margin: 5vh;
+  width: 20vw;
+  height: 20vw;
+}

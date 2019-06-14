@@ -12,7 +12,7 @@ const About = () => {
           Front-End Software Engineer <br/>
           Swiss Army Knife
           </p>
-        <img src={Hero} alt="About Me Picture" className="about-hero-img"/>
+        <img src={Hero} alt="About Me" className="about-hero-img"/>
       </div>
 
       <div className="about-panel">
@@ -21,7 +21,7 @@ const About = () => {
           <p className="about-panel-content">Example of my work</p>
         </div>
         <div className="about-panel-right">
-          <img src={code1} alt="About Me Picture" className="about-project-1"/>
+          <img src={code1} alt="About Me" className="about-project-1"/>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ const About = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis est ab, obcaecati vitae voluptates libero inventore omnis distinctio nulla aperiam voluptatibus alias similique, cupiditate aliquid laudantium dolorem vel necessitatibus. Molestias.</p>
         </div>
         <div className="about-panel-right">
-          <img src="#" alt="About Me Picture"/>
+          <img src="#" alt="About Me"/>
         </div>
       </div>
 
@@ -39,7 +39,7 @@ const About = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis est ab, obcaecati vitae voluptates libero inventore omnis distinctio nulla aperiam voluptatibus alias similique, cupiditate aliquid laudantium dolorem vel necessitatibus. Molestias.</p>
         </div>
         <div className="about-panel-right">
-          <img src="#" alt="About Me Picture"/>
+          <img src="#" alt="About Me"/>
         </div>
       </div>
 
