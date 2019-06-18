@@ -1,35 +1,32 @@
 import React from 'react';
 import './article.css';
-import data from '../../../data/data'
 
-const Article = () => {
-  
+const Article = ({data}) => {
+
   console.log(data);
-  console.log(data[idea]);
-  console.log(data.process);
-  console.log(data.result);
+
 
   return(
     <div className="article-body">
       <div className="article-panel-1">
         <p className="intro-text">{data.title}</p>
         <p className="intro-text">{data.data}</p>
-        {/* <img src={data.result.img} alt={data.result.content} className="article-img-block"/> */}
+        <img src={data.resultI} alt={data.resultC} className="article-img-block"/>
       </div>
 
       <div className="article-panel-2">
-        {/* <img src={data.idea.img} alt={data.idea.content} className="article-img-block"/> */}
-        <p className="content-1">{data.idea.content}</p>
+        <img src={data.ideaI} alt={data.ideaC} className="article-img-block"/>
+        <p className="content-1">{data.ideaC}</p>
       </div>
 
       <div className="article-panel-3">
         <p className="content-2">{}</p>
-        {/* <img src={data.process.img} alt={data.process.content} className="article-img-block"/> */}
+        <img src={data.processI} alt={data.processC} className="article-img-block"/>
       </div>
       
       <div className="article-panel-4">
-        <p className="content-3">{data.result.content}</p>
-        {/* <img src={data.result.img} alt={data.result.content} className="article-img-block"/> */}
+        <p className="content-3">{data.resultC}</p>
+        <img src={data.resultI} alt={data.resultC} className="article-img-block"/>
       </div>
 
       <div className="article-panel-4">
