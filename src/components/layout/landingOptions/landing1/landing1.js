@@ -4,11 +4,12 @@ import './landing1.css';
 import Hero from '/Users/master/websites/jhrohman/src/images/jrLogoInv.png';
 import data from '../../../../data/data';
 
+
 const Landing1 = () => {
   const [topProjects, setTopProjects ] = useState([]);
 
   const displayProjects = data => data
-        .filter(data => data.tag === "projects")
+        .filter(data => data.tag === "code")
         .map(project => <Block data={project} key={project._id} />);
 
   useEffect(() => {
@@ -24,6 +25,7 @@ const Landing1 = () => {
     <div className="landing1-body">
       <div className="landing1-hero">
         <img src={ Hero } alt="#" className="landing1-hero-img"/>
+        {/* <img src='../../../../images/jrLogoInv.png' alt="#" className="landing1-hero-img"/> */}
         <div className="landing1-hero-text">
           <p className="landing1-hero-title">Joseph Rohman</p>
           <p className="landing1-hero-content">Front-End Software Engineer</p>

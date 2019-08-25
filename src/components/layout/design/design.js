@@ -3,11 +3,11 @@ import Block from '../../replicated/block/block';
 import './design.css';
 import data from '../../../data/data';
 
-const Designs = () => {
+const Design = () => {
   const [allDesigns, setAllDesigns ] = useState([]);
 
   const displayDesigns = data => data
-        .filter(data => data.tag === "designs")
+        .filter(data => data.tag === "design")
         .map(design => <Block data={design} key={design._id} />);
 
   useEffect(() => {
@@ -26,4 +26,4 @@ const Designs = () => {
   )
 }
 
-export default Designs;
+export default Design;

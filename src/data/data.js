@@ -2,45 +2,45 @@ const Data =
 [
     {
       "_id": 1,
-      "tag": "projects",
+      "tag": "code",
       "date": "12/12/2012",
       "title": "React Final Project",
       idea: {
         "content": "For my final project of the General Assembly Software Engineering Immersive bootcamp, I developed a web-application for carpenters, crafters, and inventors",
-        "img": "test"
+        "img": "idea img"
       },
       process: {
-        "content": "test",
-        "img": "test"
+        "content": "process content",
+        "img": "process img"
       },
       result: {
-        "content": "test",
-        "img": "test"
+        "content": "result content",
+        "img": "result img"
       },
-      "growth": "test"
+      "growth": "growth 10"
     },
     {
       "_id": 2,
-      "tag": "projects",
+      "tag": "design",
       "date": "12/12/2013",
       "title": "3D Design Handheld Game Device",
       idea: {
         "content": "My personal work into the realms of product design, meachnical & electrical engineering, and manufacturing",
-        "img": "test"
+        "img": "idea img"
       },
       process: {
-        "content": "test",
-        "img": "test"
+        "content": "p c test",
+        "img": "p i test"
       },
       result: {
-        "content": "test",
-        "img": "test"
+        "content": "r c test",
+        "img": "r i test"
       },
-      "growth": "test"
+      "growth": "g test"
     },
     {
       "_id": 3,
-      "tag": "designs",
+      "tag": "design",
       "date": "12/12/2000",
       "title": "Bits & Pieces",
       idea: {
@@ -59,12 +59,13 @@ const Data =
     },
     {
       "_id": 4,
-      "tag": "designs",
-      "date": "12/12/2019",
-      "title": "Sample 4",
+      "tag": "code",
+      "date": "04/19/2019",
+      "title": "Compass Rose, Project 1 of General Assembly's Software Engineering Immersive Course",
+      "hero": "/Users/master/websites/jhrohman/src/images/compassRose copy.gif",
       idea: {
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aperiam nesciunt quia numquam error hic doloribus adipisci, rerum architecto, autem illum eveniet velit suscipit eaque veniam et iste totam facilis.",
-        "img": "test"
+        "content": "Given 1 week, create an app that...",
+        "img": "Compass Rose Gif"
       },
       process: {
         "content": "test",
@@ -75,7 +76,26 @@ const Data =
         "img": "test"
       },
       "growth": "test"
-    }
+    },
+    {
+      "_id": 4,
+      "tag": "code",
+      "date": "06/18/2019",
+      "title": "Beard Mask Website",
+      idea: {
+        "content": "This is a basic website to display a beard-mask product.",
+        "img": "Bearded Lady Photo"
+      },
+      process: {
+        "content": "The process was simple!",
+        "img": "test"
+      },
+      result: {
+        "content": "test",
+        "img": "test"
+      },
+      "growth": "test"
+    },
   ]
 
   module.exports = Data;

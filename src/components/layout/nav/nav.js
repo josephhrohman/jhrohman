@@ -10,7 +10,7 @@ const Nav = () => {
         <Link to="/" className="nav-link"><img src={Logo} alt="JR Logo" className="nav-logo"/></Link>
       </div>
       <div className="nav-right">
-        <Link to="/projects" className="nav-link">Projects</Link>
+        <Link to="/code" className="nav-link">Code</Link>
         <Link to="/design" className="nav-link">Design</Link>
         <Link to="/about" className="nav-link">About</Link>
         <Link to="/contact" className="nav-link">Contact</Link>

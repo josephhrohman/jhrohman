@@ -1,19 +1,39 @@
 .block-body {
   box-shadow: 0px 0px 7px -2px #BABABA;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 300px;
-  height: 300px;
-  margin: 20px;
   text-decoration: none;
   color: black;
   background-color: white;
 }
 
+.block-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vw;
+  width: 30%;
+}
+
 .block-img {
   border: 1px solid black;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.block-right{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 60%;
+}
+
+.read-more{
+  align-items: center;
+  height: 20px;
+  width: 80px;
+  font-size: .8em;
+  background-color: #BABABA;
 }
